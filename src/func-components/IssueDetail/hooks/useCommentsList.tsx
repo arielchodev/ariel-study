@@ -5,13 +5,9 @@ const useCommnetsList = () => {
   const [listComments, setList] = useState();
 
   const getCommnetsList = async () => {
-    // try {
     const resCommnetsList = await commentsListApi();
 
     setList(resCommnetsList.data);
-    // } catch (e) {
-    //   throw e;
-    // }
   };
 
   useEffect(() => {

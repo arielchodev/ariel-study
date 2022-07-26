@@ -134,7 +134,7 @@ textarea:focus:-ms-input-placeholder {
 }
 .issue_wrap .vote_conts .vote_conts_top {
   height: 550px;
-  background: url('https://img.etoday.co.kr/talk/vote_photo/2022/7ef2e267259c1d34c5123f3da0e8e55f.jpg')
+  background: url('https://img.etoday.co.kr/talk/vote_photo/2022/058369c3a3df5a793038dbcfe17961d9.jpg')
     no-repeat center;
   background-size: cover;
   position: relative;
@@ -211,6 +211,11 @@ textarea:focus:-ms-input-placeholder {
   margin-left: 6px;
 }
 .issue_wrap .vote_conts .vote_reply_wrap .reply_comment_wrap {
+  display: none;
+}
+.issue_wrap .vote_conts .vote_reply_wrap .reply_comment_wrap:nth-child(1),
+.issue_wrap .vote_conts .vote_reply_wrap .reply_comment_wrap:nth-child(2) {
+  display: block;
 }
 .issue_wrap .vote_conts .vote_reply_wrap .reply_comment_wrap > div {
   display: inline-block;
@@ -226,6 +231,44 @@ textarea:focus:-ms-input-placeholder {
 }
 .comments_wrap .comments_contents {
   padding: 50px 40px;
+}
+.comments_wrap .comments_contents .comment_wrap {
+}
+.comments_wrap .comments_contents .comment_wrap .comment_list_wrap {
+}
+.comments_wrap
+  .comments_contents
+  .comment_wrap
+  .comment_list_wrap
+  .comment_list {
+  margin: 20px;
+  border-bottom: 1px solid #d6d6d6;
+  padding-bottom: 20px;
+}
+.comments_wrap
+  .comments_contents
+  .comment_wrap
+  .comment_list_wrap
+  .comment_list
+  .list_id {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.comments_wrap
+  .comments_contents
+  .comment_wrap
+  .comment_list_wrap
+  .comment_list
+  .list_day {
+  color: #888;
+  margin-top: 30px;
+}
+.comments_wrap
+  .comments_contents
+  .comment_wrap
+  .comment_list_wrap
+  .comment_list
+  .list_comment {
 }
 .comments_wrap .comments_contents .talkview_head {
 }

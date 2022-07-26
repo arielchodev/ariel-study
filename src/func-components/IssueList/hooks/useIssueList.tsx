@@ -5,13 +5,9 @@ const useIssueList = () => {
   const [list, setList] = useState();
 
   const getIssueList = async () => {
-    // try {
     const resIssueList = await issueListApi();
 
     setList(resIssueList.data);
-    // } catch (e) {
-    //   throw e;
-    // }
   };
 
   useEffect(() => {

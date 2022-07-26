@@ -1,8 +1,8 @@
 import React from 'react';
-import CommentsList from '@/func-components/CommentsList/CommentsList';
+import IssueDetail from '@/func-components/IssueDetail/IssueDetail';
 
 function CommentsListPage() {
-  return <CommentsList />;
+  return <IssueDetail />;
 }
 
 export default CommentsListPage;
