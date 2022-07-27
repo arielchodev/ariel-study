@@ -10,7 +10,6 @@ interface IssueDetailPropsType {
 export default function IssueDetail({ issueId }: IssueDetailPropsType) {
   const { list } = useIssueList();
   const { listComment } = useIssueListItem(issueId);
-  console.log('listComment   ', listComment);
   return (
     <div className="comments_wrap">
       <div className="comments_contents">
