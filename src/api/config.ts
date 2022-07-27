@@ -124,6 +124,7 @@ export const callApi = ({
     headers: {
       'Content-Type': contentType,
     },
+    baseURL: 'http://localhost:3001',
     ...config,
   }).catch((error) => {
     console.error('api error', error);

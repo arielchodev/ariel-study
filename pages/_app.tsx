@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo } from 'react';
+import React, { useEffect } from 'react';
 import type { AppProps } from 'next/app';
 import { NextPage, NextPageContext } from 'next';
 import { useStore } from 'react-redux';
@@ -7,6 +7,7 @@ import { PersistGate } from 'redux-persist/integration/react';
 import { Persistor } from 'redux-persist/es/types';
 import AppLayout from '@/components/AppLayout/AppLayout';
 import '@/styles/globals.css';
+import '@/styles/issue.css';
 import usePersistSync from '@/hooks/usePersistSync';
 import { PersistSyncStateType } from '@/redux/reducers/storage';
 
